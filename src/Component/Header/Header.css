@@ -1,0 +1,49 @@
+
+.nav-link{
+    padding-right:20px !important;
+    font-size: 17px !important;
+}
+.navbar-brand{
+    font-weight: 700 !important;
+    color: goldenrod !important;
+}
+.navbar{
+    background-color: black !important;
+}
+.nav-link:hover{
+    background-color: goldenrod;
+}
+.dropdown-item:hover{
+    background-color: goldenrod;
+}
+.navbar-light .navbar-toggler{
+    background-color: white !important;
+}
+.banner{
+    background-image: url(../../image/messi.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top{
+    text-align: center;
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px){
+    .navbar-brand {
+        margin-left: 0 !important;
+    }
+    .dream{
+        text-align: center;
+        font-size: 24px;
+    }
+    .team{
+        text-align: center;
+        font-size: 24px;
+    }
+    .banner{
+        height: 70vh;
+    }
+}

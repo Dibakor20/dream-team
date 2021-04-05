@@ -1,0 +1,13 @@
+.playerImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.card:hover {
+    box-shadow: 5px 5px 10px grey, -5px -5px 10px grey;
+    transition: .3s;
+    cursor: pointer;
+}
+.card{
+    background-color: lightslategray;
+}

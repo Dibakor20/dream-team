@@ -1,0 +1,43 @@
+.team-pic{
+    width: 100%;
+    height: 70vh;
+}
+.info-club{
+    background-color:#00001a;
+    padding-bottom: 80px;
+    padding-top: 60px;
+  
+}
+.team-information{
+    width: 800px;
+    height: 200px;
+    border: 1px solid skyblue;
+    background-color: #3366ff;
+    margin-bottom: 40px;
+}
+.maleImg{
+    width: 80px;
+    height: 80px;
+}
+.descrip{
+    margin: 0px 40px;
+    color:white !important;
+}
+
+
+@media only screen and (max-width: 600px){
+    .team-information{
+        width: 350px;
+    }
+    .team-pic{
+        width: 100%;
+        height: 40vh;
+    }
+    .maleImg{
+        width: 100px;
+        height: 80px;
+    }
+    .descrip{
+        margin-top: 450px;
+    }
+}

@@ -1,0 +1,39 @@
+.feature{
+    width: 650px;
+    height: 550px;
+    border: 1px solid #20c997;
+    border-radius: 30px;
+    background-color:black;
+    opacity: 0.9;
+    color:white;
+}
+.info{
+    background-image: url(../../../image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;   
+}
+.dreamTeam{
+    font-weight: 700;
+    width: 320px;
+    border: 1px solid black;
+    margin-top: 40px;
+    background-color: black;
+    color: goldenrod;
+}
+@media only screen and (max-width: 400px){
+    .feature{
+        width:350px;
+        height:620px !important;
+    }
+    .info{
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 575px){
+    .feature{
+        width:350px;
+        height:620px;
+    }
+}

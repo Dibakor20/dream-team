@@ -1,0 +1,16 @@
+.banner{
+    background-image: url(../../image/messi.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dream{
+    color: white;
+    font-weight: 700;
+    padding-top: 70px;
+}
+.team{
+    color: goldenrod;
+    font-weight: 700;
+}
